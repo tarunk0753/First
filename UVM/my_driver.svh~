@@ -1,0 +1,7 @@
+class my_driver extends uvm_driver;
+'uvm_component_utils(my_driver)
+
+virtual intf intf_vi;
+
+
+

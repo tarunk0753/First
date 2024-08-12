@@ -1,0 +1,10 @@
+interface memory_if;
+
+bit clk;
+bit reset; ////
+logic wire [width-1:0]data_in;//
+bit data_ready;
+logic d_out1;///
+
+endinterface: memory_if
+
